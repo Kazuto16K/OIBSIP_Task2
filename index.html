@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script src="https://kit.fontawesome.com/4b7f643936.js" crossorigin="anonymous"></script>
+    <title>Soumava | Portfolio</title>
+</head>
+<body>
+    <header class="header">
+        <a href="#" class="logo">Soumava Das</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#skills">Skills</a>
+            <a href="#education">Education</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    
+    <section class="main" id="home">
+        <div class="main-img">
+            <img src="./assets/img4.png" alt="">
+        </div>
+        
+        <div class="main-content">
+            <h1>Hi, I am <span>Soumava</span></h1>
+            <h3 class="typing-text">I'm a <span></span></h3>
+            <p>I am a B.Tech 4th Year Computer Science Engg Undergraduate at Heritage Institute of Technology Kolkata. I am a Backend Web Developer and have proficiency in Python and it's frameworks like Django and Flask.
+                I am also experienced in other programming languages like Javascript, C and C++. I am currently interested in Computer Vision (OpenCv) and Deep Learning.
+            </p>
+
+            <div class="social-icon">
+                <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="#"><i class="fa-brands fa-github"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+    
+            <div class="main-btn">
+                <button class="btn">
+                    <p>Download CV</p>
+                </button>
+    
+                <button class="btn">
+                    <p>Contact Me</p>
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <section class="skills" id="skills">
+        <h2 class="heading">Skills</h2>
+        <div class="container">
+            <div class="row" id="skillsContainer">
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets/python.png" alt="">
+                        <span>Python</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets/django.png" alt="">
+                        <span>Django</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets/flask3.png" alt="">
+                        <span>Flask</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets/html2.jpg" alt="">
+                        <span>HTML</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets/css.jpg" alt="">
+                        <span>CSS</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets/Javascript.png" alt="">
+                        <span>Javascript</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets/openCv.png" alt="">
+                        <span>OpenCV</span>
+                    </div>
+                </div>
+                <div class="bar">
+                    <div class="info">
+                        <img src="./assets/sql.jpg" alt="">
+                        <span>SQL</span>
+                    </div>
+                </div>
+        
+            </div>
+        </div>
+    </section>
+
+    <section class="education" id="education">
+        <h2 class="heading">EDUCATION</h2>
+        <div class="container">
+            <div class="school">
+                <h4>High School: </h4>
+                I completed my Higher Secondary School Examination in the Science stream with a focus on Computer Science from South Point High School, Kolkata in 2021.
+            </div>
+            <div class="college">
+                <h4>College: </h4>
+                I am currently an undergraduate in my final year at Heritage Institute of Technology, Kolkata.
+            </div>
+        </div>
+    </section>
+
+    <section class="projects" id="projects">
+        <h2 class="heading">PROJECTS</h2>
+        <div class="container">
+            <div class="card">
+                <div class="img">
+                    <img src="./assets/Quizpoint.png" alt="">
+                </div>
+                <h5>Quiz Point</h5>
+                <div class="content">
+                    A Quiz website where one can play fun quizes and compete with friends designed using Django and Javascript. <a href="#">Link</a>
+                </div> 
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="./assets/tourify.png" alt="">
+                </div>
+                <h5>Tourify</h5>
+                <div class="content">
+                    A Travel Booking Website where one can easily book flights and hotels designed using Django, HTML and CSS and integrated with Paypal Payment Gateway.
+                    <a href="#">Link</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="./assets/huffman.JPG" alt="">
+                </div>
+                <h5>File Compressor</h5>
+                <div class="content">
+                    A File Compressing website that uses Huffman Encoding algorithm to compress and decompress text files to binary and vice versa using Python, Flask
+                    <a href="#">Link</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="img">
+                    <img src="./assets/maze.JPG" alt="">
+                </div>
+                <h5>Maze Generator and Solver</h5>
+                <div class="content">
+                    This project uses recursive backtracking to generate random mazes and solves them using A* search made using Python
+                    <a href="#">Link</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">CONTACT ME</h2>
+        <div class="container">
+            <div class="form-container">
+                <form action="">
+                <div class="col1">
+                    <input type="text" placeholder="Name" class="element">
+                    <input type="email" placeholder="Email" class="element">
+                    <input type="number" name="phonenumber" placeholder="Phone Number" class="element">
+                </div>
+                <div class="col1">
+                    <textarea name="message" id="message" placeholder="Your Message"></textarea>
+                    <input type="submit" id="submit" value="Send">
+                </div>
+                </form>
+            </div>
+            <div class="other-container">
+                <h3 class="sub-heading">GET IN TOUCH</h3>
+                <div class="link-container">
+                    <div class="linkedin"><a href="#"><i class="fa-brands fa-linkedin"></i></a></div>
+                    <div class="instagram"><a href="#"><i class="fa-brands fa-instagram"></i></a></div>
+                    <div class="github"><a href="#"><i class="fa-brands fa-github"></i></a></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="rights">
+        <div class="rights-container">
+            <p><i class="fa-regular fa-copyright"></i> Soumava Das | All Rights Reserved</p>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
